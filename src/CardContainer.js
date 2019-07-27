@@ -1,8 +1,8 @@
 import React from 'react';
-import {robots} from './robots';
+
 import Card from './Card';
 
-const CardContainer = () => {
+const CardContainer = ({robots}) => {
      return(<div>{
         robots.map((key, index) => {
            return(<Card 
